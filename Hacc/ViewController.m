@@ -137,7 +137,7 @@
         NSDictionary *params = @{@"q": currentLabel,
                                  @"target": @"es",
                                  @"source": @"en",
-                                 @"key": @"AIzaSyCsV-g8uUnUMhu001pd0lrbFdjvx1E5Ypo"};
+                                 @"key": @"haha"};
         
         AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
         [manager POST:@"https://translation.googleapis.com/language/translate/v2" parameters:params success:^(NSURLSessionDataTask *task, id responseObject) {
